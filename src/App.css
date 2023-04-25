@@ -23,16 +23,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#delete{
+         background-color: darkred;
+         color: white;
 }
+#edit{
+  background-color: darkgoldenrod;
+}
+ 
+#todolist {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+table{
+  margin: auto;
+}
+#editinput{
+  width: 32rem;
+  height:30px;
+  border: 2px solid black;
+}
+#addbtn{
+  width: 5rem;
+  height:35px;
+  background-color:green;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
 }
